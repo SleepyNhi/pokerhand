@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package pokerhand;
 import java.util.*;
 import static java.util.Collections.list;
@@ -208,40 +204,7 @@ public class PokerHand {
         }
         
         
-        
-//        
-//        switch (storedNum.toString()) {
-//            case oneOfaKind:
-//                System.out.println("Your hand is high card."); 
-//                break; 
-//            case onePair:
-//                System.out.println("Your hand is one pair.");
-//                break;
-//            case twoPair: 
-//                System.out.println("Your hand is two pair.");
-//                break;
-//            case threeOfaKind: 
-//                System.out.println("Your hand is three of a kind.");  
-//                break;
-//            case fullHouse: 
-//                System.out.println("Your hand is a full house.");
-//                break;
-//            case fourOfaKind: 
-//                System.out.println("Your hand is four of a kind.");
-//                break;
-//            default: 
-//                System.out.println("Hand Unknown");
-//            
-//        }
-//        
-        
-//        try {
-//            
-//            suitArray = suitArray.split("\\s");
-//        } catch (Exception e ){
-//            System.out.println(e);
-//        }
-        
+       
         
         //Counting occ. of number  ex: 2 , 3, 10, 3, 14
         for (int i = 0; i <= numArray.length-1; i++){
